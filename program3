@@ -18,3 +18,13 @@ return true;
 }
 
 return false; 
+}
+int main()
+{
+int A[50];
+cin>>A[i];
+int sum;
+int arr_size = sizeof(A) / sizeof(A[0]);
+find3Numbers(A, arr_size, sum);
+return 0;
+}
